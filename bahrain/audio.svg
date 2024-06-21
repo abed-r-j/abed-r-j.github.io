@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.666" height="83.666" viewBox="0 0 83.666 83.666">
+  <defs>
+    <filter id="Ellipse_10" x="0" y="0" width="83.666" height="83.666" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#e8451e" flood-opacity="0.416"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_109" data-name="Rectangle 109" width="26.533" height="25.013" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="25.99" height="23.247" fill="#1e1e1c"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="10.126" height="10.126" fill="#fff" stroke="#1e1e1c" stroke-linecap="round" stroke-width="0.8"/>
+    </clipPath>
+  </defs>
+  <g id="Group_6607" data-name="Group 6607" transform="translate(15 8)" style="mix-blend-mode: normal;isolation: isolate">
+    <g transform="matrix(1, 0, 0, 1, -15, -8)" filter="url(#Ellipse_10)">
+      <circle id="Ellipse_10-2" data-name="Ellipse 10" cx="26.833" cy="26.833" r="26.833" transform="translate(15 8)" fill="#e8451e"/>
+    </g>
+    <g id="Group_132" data-name="Group 132" transform="translate(13.566 14.326)">
+      <g id="Group_131" data-name="Group 131" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_137" data-name="Path 137" d="M12.307,22.791a.456.456,0,0,1-.322-.134L5.737,16.409H1.823A1.825,1.825,0,0,1,0,14.586V8.2A1.825,1.825,0,0,1,1.823,6.381H5.737L11.985.133a.456.456,0,0,1,.778.322V22.335a.456.456,0,0,1-.456.456ZM1.823,7.293A.913.913,0,0,0,.912,8.2v6.381a.913.913,0,0,0,.912.912h4.1a.456.456,0,0,1,.322.134l5.6,5.6V1.556l-5.6,5.6a.456.456,0,0,1-.322.134Z" transform="translate(0.912 0.922)" fill="#fff"/>
+        <path id="Path_137_-_Outline" data-name="Path 137 - Outline" d="M12.035,22.747a.679.679,0,0,1-.484-.2L5.37,16.365H1.551A2.053,2.053,0,0,1-.5,14.314V7.933A2.053,2.053,0,0,1,1.551,5.881H5.37L11.551-.3A.684.684,0,0,1,12.3-.448a.682.682,0,0,1,.422.632V22.063a.684.684,0,0,1-.684.684ZM1.551,6.337a1.6,1.6,0,0,0-1.6,1.6v6.381a1.6,1.6,0,0,0,1.6,1.6H5.559l6.315,6.315a.228.228,0,0,0,.389-.161V.184a.228.228,0,0,0-.389-.161L5.559,6.337ZM11.807,21.513,5.815,15.52a.226.226,0,0,0-.161-.067h-4.1a1.141,1.141,0,0,1-1.14-1.14V7.933a1.141,1.141,0,0,1,1.14-1.14h4.1a.226.226,0,0,0,.161-.067L11.807.734ZM1.551,7.249a.685.685,0,0,0-.684.684v6.381A.685.685,0,0,0,1.551,15h4.1a.679.679,0,0,1,.483.2l5.214,5.214V1.834L6.137,7.049a.679.679,0,0,1-.483.2Z" transform="translate(1.184 1.194)" fill="#fff"/>
+        <g id="Group_18" data-name="Group 18" transform="translate(0.544 0.694)">
+          <g id="Group_17" data-name="Group 17" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+            <g id="Group_19" data-name="Group 19" transform="translate(15.19 6.014)">
+              <g id="Group_19-2" data-name="Group 19" transform="translate(0)" clip-path="url(#clip-path-3)">
+                <path id="Path_43" data-name="Path 43" d="M.4,8a.4.4,0,0,1-.283-.683l7.2-7.2a.4.4,0,1,1,.566.566l-7.2,7.2A.4.4,0,0,1,.4,8" transform="translate(0.986 1.186)" fill="#fff"/>
+                <path id="Path_43_-_Outline" data-name="Path 43 - Outline" d="M.4,8.392a.8.8,0,0,1-.563-1.36l7.2-7.2a.8.8,0,0,1,1.126,0,.8.8,0,0,1,0,1.126l-7.2,7.2A.791.791,0,0,1,.4,8.392Zm7.2-8-7.2,7.2L.4,7.6h0L7.6.4Z" transform="translate(0.989 1.19)" fill="#fff"/>
+                <path id="Path_44" data-name="Path 44" d="M7.6,8a.4.4,0,0,1-.283-.117L.117.683A.4.4,0,0,1,.683.117l7.2,7.2A.4.4,0,0,1,7.6,8" transform="translate(0.986 1.186)" fill="#fff"/>
+                <path id="Path_44_-_Outline" data-name="Path 44 - Outline" d="M7.6,8.392a.791.791,0,0,1-.563-.233l-7.2-7.2a.8.8,0,0,1,0-1.126.8.8,0,0,1,1.126,0l7.2,7.2A.8.8,0,0,1,7.6,8.392ZM.4.394l0,0L7.6,7.6h0Z" transform="translate(0.989 1.19)" fill="#fff"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
