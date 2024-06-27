@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="235.246" height="200.486" viewBox="0 0 235.246 200.486">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4590" data-name="Rectangle 4590" width="196.428" height="171.073" fill="#e8451e"/>
+    </clipPath>
+  </defs>
+  <g id="Group_70287" data-name="Group 70287" transform="translate(-606 -222.22)">
+    <g id="Group_70286" data-name="Group 70286" transform="translate(644.818 222.22)">
+      <g id="Group_70285" data-name="Group 70285" clip-path="url(#clip-path)">
+        <path id="Path_10811" data-name="Path 10811" d="M181.734,36.639H156.059a4.674,4.674,0,0,0-.878-.572L84.091.493a4.649,4.649,0,1,0-4.161,8.316l55.615,27.83H14.695A14.711,14.711,0,0,0,0,51.334V156.379a14.711,14.711,0,0,0,14.695,14.695H181.734a14.711,14.711,0,0,0,14.695-14.695V51.334a14.711,14.711,0,0,0-14.695-14.695m5.4,119.74a5.4,5.4,0,0,1-5.4,5.4H14.695a5.4,5.4,0,0,1-5.4-5.4V51.334a5.4,5.4,0,0,1,5.4-5.4H181.734a5.4,5.4,0,0,1,5.4,5.4Z" transform="translate(0 0)" fill="#e8451e"/>
+        <path id="Path_10812" data-name="Path 10812" d="M235.412,125.972A35.934,35.934,0,1,0,260.821,136.5a35.7,35.7,0,0,0-25.409-10.525m0,62.568a26.634,26.634,0,1,1,26.634-26.634,26.664,26.664,0,0,1-26.634,26.634" transform="translate(-93.286 -58.91)" fill="#e8451e"/>
+        <path id="Path_10813" data-name="Path 10813" d="M92.1,148.076H37a4.65,4.65,0,0,0,0,9.3H92.1a4.65,4.65,0,0,0,0-9.3" transform="translate(-15.127 -69.247)" fill="#e8451e"/>
+        <path id="Path_10814" data-name="Path 10814" d="M92.1,184.737H37a4.65,4.65,0,1,0,0,9.3H92.1a4.65,4.65,0,1,0,0-9.3" transform="translate(-15.127 -86.392)" fill="#e8451e"/>
+        <path id="Path_10815" data-name="Path 10815" d="M92.1,221.4H37a4.65,4.65,0,1,0,0,9.3H92.1a4.65,4.65,0,1,0,0-9.3" transform="translate(-15.127 -103.536)" fill="#e8451e"/>
+      </g>
+    </g>
+    <circle id="Ellipse_66" data-name="Ellipse 66" cx="36.81" cy="36.81" r="36.81" transform="translate(606 349.087)" fill="#fafafa"/>
+    <path id="Icon_ionic-ios-close" data-name="Icon ionic-ios-close" d="M32.99,28.83,45.523,16.3a2.937,2.937,0,0,0-4.153-4.153L28.836,24.677,16.3,12.143A2.937,2.937,0,1,0,12.149,16.3L24.683,28.83,12.149,41.364A2.937,2.937,0,0,0,16.3,45.518L28.836,32.984,41.37,45.518a2.937,2.937,0,0,0,4.153-4.153Z" transform="translate(613.978 357.066)" fill="#e8451e" stroke="#e8451e" stroke-width="2"/>
+  </g>
+</svg>

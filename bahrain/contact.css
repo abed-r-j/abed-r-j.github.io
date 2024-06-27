@@ -1,0 +1,400 @@
+body.english {
+    direction: ltr;
+    font-family: 'Kanit', sans-serif;
+}
+body.arabic {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+body.arabic #contact-text {
+    right: 57%;
+}
+body.arabic::before {
+    margin-right: -20%;
+    background-size: 60% auto;
+}
+body.arabic .navbar .dropdown {
+    margin-right: 67%;
+}
+body {
+    overflow-x: hidden;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 15px;
+    width: 100%;
+    height: auto;
+    min-height: 30vh;
+    background-image: url('2bi/bi.png');
+    background-size: 60% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin-left: 18.7%;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    position: relative;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.navbar a:hover {
+    color: #E8451E;
+}
+.navbar .active {
+    color: #E8451E;
+}
+.navbar img {
+    margin-right: auto;
+}
+body.english .menu-icon {
+    display: none;
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+body.english .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    cursor: pointer;
+    z-index: 4;
+}
+body.arabic .menu-icon {
+    display: none;
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+body.arabic .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: auto;
+    cursor: pointer;
+    z-index: 4;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.dropdown-details {
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-details a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-details a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown-details a.english {
+    font-family: 'Kanit', sans-serif;
+}
+.dropdown-details a.arabic {
+    font-family: 'Cairo', sans-serif;
+}
+.contact-form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    margin-top: 100px;
+}
+.contact-form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.contact-form input[type="email"],
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form button[type="submit"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.contact-form .message {
+    color: #d9534f;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.footer {
+    background-color: #ffffff;
+    width: 97.91%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.footer a:hover {
+    color: #E8451E;
+}
+.footer img {
+    margin-right: auto;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -35px;
+}
+.social-icons img {
+    width: 20px;
+    height: 30px;
+    margin: 0 15px;
+}
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-right {
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+.footer-right p {
+    margin: 0;
+    text-align: right;
+    padding-right: 131px;
+}
+.footer-right a {
+    margin-top: 5px;
+}
+#contact-text {
+    position: absolute;
+    top: 270px;
+    left: 18.5%;
+    width: 31%;
+}
+#contact-text p {
+    margin: 0 0 10px 0;
+    margin-right: 30%;
+    right: 50%;
+}
+.alert {
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.success {
+    background-color: #4CAF50;
+}
+.error {
+    background-color: #f44336;
+}
+@media (max-width: 768px) {
+    .dropdown-details {
+        bottom: 100%;
+    }
+    body.english::before {
+        top: 54%;
+        left: -18.7%;
+        bottom: 300px;
+        background-position: 90% -12%;
+        background-size: 100% 77%;
+    }
+    body.arabic::before {
+        top: 52.1%;
+        right: 20%;
+        bottom: 300px;
+        background-position: 90% -12%;
+        background-size: 100% 77%;
+    }
+    .navbar a:not(.menu-icon) {
+        display: none;
+    }
+    body.english .menu-icon {
+        display: block;
+        margin-left: 90%;
+    }
+    body.english .dropdown {
+        right: 80%;
+    }
+    body.arabic .menu-icon {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+    }
+    body.arabic .dropdown {
+        left: 60%;
+    }
+    .navbar img {
+        margin-right: auto;
+    }
+    .navbar.active a:not(.menu-icon) {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar.active {
+        flex-direction: column;
+    }
+    .contact-form-container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        margin-top: 0px;
+    }
+    .contact-form label {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .contact-form label[for="message"] {
+        display: block;
+    }
+    .contact-form textarea#message {
+        width: 39%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .contact-form input[type="email"],
+    .contact-form input[type="text"],
+    .contact-form input[type="tel"],
+    .contact-form button[type="submit"] {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .contact-form button[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .contact-form button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+    .contact-form .message {
+        color: #d9534f;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: #f2dede;
+        border-color: #ebccd1;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 0px 0px;
+    }
+    .footer-left, .footer-center, .footer-right {
+        flex: none;
+        margin: 0px 0;
+    }
+    body.english .footer-right p {
+        padding-right: 76.2px;
+    }
+    body.arabic .footer-right p {
+        padding-left: 35%;
+    }
+    #contact-text {
+        position: absolute;
+        top: 220px;
+        left: 45%;
+        width: 80%;
+    }
+    body.arabic #contact-text {
+        right: -10%;
+        top: 21%;
+    }
+    .dropdown-details a:hover {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .alert {
+        padding: 20px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    .success {
+        background-color: #4CAF50;
+    }
+    .error {
+        background-color: #f44336;
+    }
+}
