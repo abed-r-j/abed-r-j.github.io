@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SociaLite App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9fafb;
+            color: #333;
+        }
+        .download-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin-top: 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .download-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto px-4">
+            <h1 class="text-3xl font-bold">SociaLite</h1>
+            <p class="mt-2">A feature-rich social network app powered by Android Jetpack and Gemini AI</p>
+        </div>
+    </header>
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold mb-4">About SociaLite</h2>
+            <p class="mb-4">SociaLite is an Android app that demonstrates how to use various Android platform APIs to implement features commonly seen in social network apps. It leverages a variety of Jetpack APIs to achieve complex functionality that works reliably on more devices and requires less code.</p>
+            <a href="https://drive.google.com/file/d/15QoLKjSvHGjOqsi6Fv_Wctts6h9zjvdt/view?usp=sharing" class="download-button">Download SociaLite</a>
+        </section>
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold mb-4">Key Features</h2>
+            <ul class="list-disc pl-6">
+                <li>Timeline of photos and videos from chats</li>
+                <li>Chat threads with animal avatars powered by Gemini AI</li>
+                <li>In-app camera for capturing photos and videos</li>
+                <li>Video editing capabilities</li>
+                <li>Notification system for chat replies</li>
+                <li>Settings for app customization</li>
+            </ul>
+        </section>
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold mb-4">Technologies Used</h2>
+            <ul class="list-disc pl-6">
+                <li>Kotlin</li>
+                <li>Android Jetpack (Compose, Media3, CameraX, Room, Window)</li>
+                <li>Core Notifications</li>
+                <li>Google AI Client SDK (Gemini 1.5 Flash)</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="text-2xl font-semibold mb-4">App Screens</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold mb-2">Timeline Screen</h3>
+                    <p>A vertical scrolling page of all photos and videos sent in chats.</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold mb-2">Chat List Screen</h3>
+                    <p>A list of all chat threads with various animal personalities.</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold mb-2">Chat Screen</h3>
+                    <p>Individual message threads for sending text and media messages.</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold mb-2">Camera Screen</h3>
+                    <p>In-app camera for taking photos and videos.</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold mb-2">Video Edit Screen</h3>
+                    <p>Tools for minor edits on captured videos.</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold mb-2">Settings Screen</h3>
+                    <p>Basic settings for tasks like resetting chat history.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white py-4 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 SociaLite</p>
+        </div>
+    </footer>
+</body>
+</html>
